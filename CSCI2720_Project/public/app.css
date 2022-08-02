@@ -1,0 +1,33 @@
+body {background-color: #cff;}
+header,footer {background-color: #8cc;}
+nav {background-color: #8ff;}
+section {background-color: #c0e0ff;}
+input {margin-left: 1rem;}
+table {margin: 1rem 0;}
+table div {display: inline-block; height: 100%; margin: 0.25rem; vertical-align: middle;}
+small {margin-left: 0.5rem;}
+
+/* override some bootstrap classes because I don't like them or because they don't work as intended (or they don't exist) */
+.btn-secondary {padding: 0 0.5rem; margin: 0.5rem 0;}
+.btn-light {display: block; font-size: 0.6rem; line-height: 100%; padding: 0; width: 1.2rem;}
+.text-right {text-align: right;}
+.text-warning {color: orange!important;}
+.mr-2 {margin-right: 0.5rem;}
+.w-90 {width: 90%;}
+
+/* my own classes */
+.text-link {cursor: pointer;}
+.text-raw {white-space: pre-wrap;}
+.nav-visible {height: 2rem;}
+.nav-hidden {height: 0; visibility: hidden}
+.table-data tr:nth-of-type(even) {background-color: #fff;}
+.table-data tr:nth-of-type(odd) {background-color: #eee;}
+.table-data th,td {padding: 0 0.25rem;}
+.table-comments tr:nth-of-type(even) {background-color: #afa;}
+.table-comments tr:nth-of-type(odd) {background-color: #cfc;}
+.table-comments th,td {padding: 0 0.25rem;}
+.input-long {width: 200%;}
+.input-multi {min-width: 8rem; height: 12rem;}
+.input-comment {height: 6rem; width: 24rem; max-width: 100%;}
+.btn-up {border-radius: 0.25rem 0.25rem 0 0;}
+.btn-down {border-radius: 0 0 0.25rem 0.25rem;}
